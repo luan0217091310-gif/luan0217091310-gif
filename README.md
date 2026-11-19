@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hello.svg" width="660" alt="I love open source :) — Xin chào, mình là Phùng Hữu Luân" />
+  <img src="./assets/hello.svg" width="660" alt="Xin chào, mình là Phùng Hữu Luân" />
 </p>
 
 Xin chào! Mình là **Phùng Hữu Luân**. Mình thích xây dựng ứng dụng web, khám phá công nghệ và học hỏi qua những dự án thực tế. Các dự án của mình trải dài từ ứng dụng ghi chú cộng tác đến xử lý ảnh với WebAssembly; mình cũng đang tìm hiểu hướng ứng dụng AI trong học nhạc.
