@@ -1,0 +1,41 @@
+name: Refresh Midnight Lab
+
+on:
+  schedule:
+    - cron: '23 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/render_profile.py'
+      - '.github/workflows/midnight-lab.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: midnight-lab
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Render original art and public activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+        run: python3 scripts/render_profile.py
+      - name: Save refreshed artwork
+        run: |
+          git add assets/lab/
+          if git diff --cached --quiet; then
+            echo "Artwork is already current."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh Midnight Lab activity'
+          git push

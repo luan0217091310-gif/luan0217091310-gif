@@ -1,55 +1,73 @@
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/lab/hero-mobile-still.svg" />
+  <source media="(max-width: 600px)" srcset="./assets/lab/hero-mobile.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/lab/hero-still.svg" />
+  <img src="./assets/lab/hero.svg" width="100%" alt="Phùng Hữu Luân — Midnight Lab. Góc làm việc ban đêm với robot nhỏ, màn hình code và những nốt nhạc chuyển động." />
+</picture>
+
 <p align="center">
-  <img src="./assets/hello.svg" width="660" alt="I love open source :) — Xin chào, mình là Phùng Hữu Luân" />
+  <a href="#selected-builds">GÓC CHẾ TẠO</a> &nbsp; / &nbsp;
+  <a href="#build-rhythm">NHỊP XÂY DỰNG</a> &nbsp; / &nbsp;
+  <a href="#behind-the-scenes">SAU MÀN HÌNH</a>
 </p>
 
-Xin chào! Mình là **Phùng Hữu Luân**. Mình thích xây dựng ứng dụng web, khám phá công nghệ và học hỏi qua những dự án thực tế. Các dự án của mình trải dài từ ứng dụng ghi chú cộng tác đến xử lý ảnh với WebAssembly; mình cũng đang tìm hiểu hướng ứng dụng AI trong học nhạc.
+Mình là **Phùng Hữu Luân**. Mình học bằng cách xây dựng: từ một ứng dụng ghi chú giúp giữ lại ý tưởng, đến thử nghiệm đưa C++ vào trình duyệt. Gần đây, mình còn tò mò về những gì **AI có thể làm cùng âm nhạc**.
 
-## Về mình
+## Selected builds
 
-- 💻 Xây dựng ứng dụng web với **PHP, Laravel, JavaScript và MySQL**.
-- ⚡ Khám phá **C++ / WebAssembly** để xử lý ảnh ngay trên trình duyệt.
-- 🎹 Tìm hiểu ý tưởng **VocaPiano AI** — hỗ trợ học thanh nhạc và piano bằng AI.
-- 🌱 Học qua từng dự án, cải thiện từng chi tiết và chia sẻ những gì mình làm.
-- 💬 Cùng trao đổi tại [GitHub của mình](https://github.com/luan0217091310-gif).
+Ba hướng khám phá, mỗi hướng một chút cá tính. **Bấm vào từng thẻ để xem dự án.**
 
-## 🧑‍💻 Công nghệ trong các dự án
+<a href="https://github.com/luan0217091310-gif/note-app-final">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/lab/note-mobile-still.svg" />
+    <source media="(max-width: 600px)" srcset="./assets/lab/note-mobile.svg" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/lab/note-still.svg" />
+    <img src="./assets/lab/note.svg" width="100%" alt="Note App — ứng dụng ghi chú Laravel, cộng tác thời gian thực, hỗ trợ ngoại tuyến. Mở repository." />
+  </picture>
+</a>
 
 <p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=php,laravel,js,html,css,bootstrap,mysql,cpp,git&amp;theme=dark&amp;perline=9" alt="PHP, Laravel, JavaScript, HTML, CSS, Bootstrap, MySQL, C++ và Git" />
-  </a>
+  <a href="https://github.com/luan0217091310-gif/WebAssembly"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/lab/wasm-still.svg" /><img src="./assets/lab/wasm.svg" width="410" alt="WebAssembly — thử nghiệm xử lý ảnh với JavaScript và C++ ngay trên trình duyệt. Mở repository." /></picture></a>
+  <a href="https://github.com/luan0217091310-gif/vocapiano-ai-studio"><picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/lab/music-still.svg" /><img src="./assets/lab/music.svg" width="410" alt="VocaPiano AI — ý tưởng nghiên cứu AI hỗ trợ học thanh nhạc và piano, đang ở giai đoạn đề xuất. Mở repository." /></picture></a>
 </p>
 
-## 📊 Thống kê GitHub
+[Khám phá tất cả repository ↗](https://github.com/luan0217091310-gif?tab=repositories)
 
-<p>
-  <a href="https://github.com/luan0217091310-gif?tab=repositories">
-    <img width="400" align="top" src="https://github-readme-stats.vercel.app/api?username=luan0217091310-gif&amp;show_icons=true&amp;hide_rank=true&amp;custom_title=Phung%20Huu%20Luan%27s%20GitHub%20Stats&amp;title_color=3984ff&amp;icon_color=7385ff&amp;text_color=586069&amp;bg_color=ffffff&amp;border_color=30363d&amp;card_width=450" alt="Thống kê GitHub của Phùng Hữu Luân: sao, commit, pull request, issue và đóng góp" />
-  </a>
-  <a href="https://github.com/luan0217091310-gif?tab=repositories">
-    <img width="400" align="top" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luan0217091310-gif&amp;layout=compact&amp;langs_count=6&amp;card_width=450&amp;title_color=3984ff&amp;text_color=586069&amp;bg_color=ffffff&amp;border_color=30363d" alt="Các ngôn ngữ được sử dụng nhiều trong repository công khai" />
-  </a>
-</p>
+## Build rhythm
 
-## 🚀 Dự án nổi bật
+Lịch đóng góp của mình, viết lại thành một bản nhạc nhỏ. **Mỗi cột là một tuần**, chiều cao thể hiện số đóng góp trên lịch công khai; vạch sáng chạy qua như kim phát nhạc.
 
-<p>
-  <a href="https://github.com/luan0217091310-gif/note-app-final">
-    <img width="400" align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=luan0217091310-gif&amp;repo=note-app-final&amp;title_color=3984ff&amp;icon_color=6a737d&amp;text_color=586069&amp;bg_color=ffffff&amp;border_color=30363d" alt="Mở dự án Note App — ứng dụng ghi chú với Laravel" />
-  </a>
-  <a href="https://github.com/luan0217091310-gif/WebAssembly">
-    <img width="400" align="top" src="https://github-readme-stats.vercel.app/api/pin/?username=luan0217091310-gif&amp;repo=WebAssembly&amp;title_color=3984ff&amp;icon_color=6a737d&amp;text_color=586069&amp;bg_color=ffffff&amp;border_color=30363d" alt="Mở dự án WebAssembly — xử lý ảnh với C++ và JavaScript" />
-  </a>
-</p>
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/lab/pulse-mobile-still.svg" />
+  <source media="(max-width: 600px)" srcset="./assets/lab/pulse-mobile.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/lab/pulse-still.svg" />
+  <img src="./assets/lab/pulse.svg" width="100%" alt="Nhịp hoạt động GitHub: tổng đóng góp trong năm, số ngày hoạt động, số repository công khai và biểu đồ theo tuần. Tự cập nhật mỗi ngày." />
+</picture>
 
-| Dự án | Nội dung |
+## Behind the scenes
+
+<details open>
+<summary><b>🧰 Mở ngăn kéo công nghệ</b></summary>
+
+| Trong ngăn kéo | Mình dùng để làm gì? |
 | --- | --- |
-| [📝 Note App](https://github.com/luan0217091310-gif/note-app-final) | Ứng dụng quản lý ghi chú với Laravel, cộng tác thời gian thực và hỗ trợ ngoại tuyến. |
-| [⚡ WebAssembly](https://github.com/luan0217091310-gif/WebAssembly) | Demo xử lý ảnh, so sánh thực thi giữa JavaScript và C++ / WebAssembly. |
-| [🎹 VocaPiano AI](https://github.com/luan0217091310-gif/vocapiano-ai-studio) | Đề xuất dự án ứng dụng AI để phân tích ca khúc và hỗ trợ học thanh nhạc, piano. |
+| **PHP · Laravel · MySQL** | Xây dựng ứng dụng web, quản lý dữ liệu và cộng tác thời gian thực. |
+| **JavaScript · HTML · CSS · Bootstrap** | Làm giao diện và các tương tác trên trình duyệt. |
+| **C++ · WebAssembly** | Thử nghiệm xử lý ảnh và so sánh hiệu năng thực thi. |
 
----
+</details>
 
-<p align="center">
-  <sub>Luôn tò mò. Luôn học hỏi. Luôn xây dựng.</sub>
-</p>
+<details>
+<summary><b>🎹 Một hướng khám phá khác: code × âm nhạc</b></summary>
+
+**VocaPiano AI** bắt đầu từ một câu hỏi: liệu một bản thu có thể trở thành hướng dẫn học hát và piano trực quan?
+
+Mình đang tìm hiểu bài toán tách âm thanh, nhận diện cao độ và chuyển nốt nhạc thành hình ảnh. Đây là **ý tưởng nghiên cứu đang được đề xuất**; tài liệu và hướng triển khai nằm trong [repository VocaPiano AI](https://github.com/luan0217091310-gif/vocapiano-ai-studio).
+
+</details>
+
+<br />
+
+<a href="https://github.com/luan0217091310-gif?tab=repositories">
+  <picture><source media="(prefers-reduced-motion: reduce)" srcset="./assets/lab/footer-still.svg" /><img src="./assets/lab/footer.svg" width="100%" alt="Hẹn gặp ở lần commit tiếp theo. Khám phá các repository của Luân." /></picture>
+</a>

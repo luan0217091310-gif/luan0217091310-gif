@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="118" viewBox="0 0 960 118" role="img" aria-labelledby="title desc"><title id="title">Hẹn gặp ở lần commit tiếp theo.</title><desc id="desc">Hẹn gặp ở lần commit tiếp theo.</desc><style>
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@keyframes blink{0%,43%,47%,100%{transform:scaleY(1)}45%{transform:scaleY(.12)}}
+@keyframes shimmer{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes steam{0%{opacity:0;transform:translateY(3px)}30%{opacity:.65}100%{opacity:0;transform:translateY(-18px)}}
+@keyframes cursor{50%{opacity:0}}
+@keyframes notes{0%{opacity:0;transform:translate(0,8px)}25%{opacity:1}100%{opacity:0;transform:translate(10px,-28px)}}
+@keyframes scan{from{transform:translateX(0)}to{transform:translateX(904px)}}
+@keyframes scan-mobile{from{transform:translateX(0)}to{transform:translateX(424px)}}
+@keyframes signal{0%{stroke-dashoffset:260}100%{stroke-dashoffset:0}}
+.bob{animation:bob 4s ease-in-out infinite}.blink{transform-box:fill-box;transform-origin:center;animation:blink 6s infinite}
+.twinkle{animation:shimmer 3s ease-in-out infinite}.cursor{animation:cursor 1s steps(1) infinite}
+.steam{animation:steam 3s ease-out infinite}.note{animation:notes 4s ease-in-out infinite}
+.signal{stroke-dasharray:18 242;animation:signal 7s linear infinite}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.steam,.note{opacity:.6}}
+*{animation:none!important}.steam,.note{opacity:.6}</style><rect x="0.5" y="0.5" width="959" height="105" rx="18" fill="#101e29" stroke="#2c4650" /><path d="M28 56 H110 Q130 56 130 36 V28 H200 Q220 28 220 48 V64 H298" fill="none" stroke="#2c4650" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><path d="M28 56 H110 Q130 56 130 36 V28 H200 Q220 28 220 48 V64 H298" fill="none" stroke="#89d9bf" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="signal"/><text x="480" y="40" fill="#f2ead9" font-size="23" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" text-anchor="middle">Hẹn gặp ở lần commit tiếp theo.</text><text x="480" y="67" fill="#89d9bf" font-size="10" font-weight="500" font-family="Consolas, Menlo, monospace" text-anchor="middle" letter-spacing="2">STAY CURIOUS. KEEP MAKING.</text><g transform="translate(842 24) scale(0.8)" ><g class="bob"><rect x="7" y="8" width="48" height="42" rx="12" fill="#f2ead9" /><rect x="13" y="19" width="36" height="19" rx="7" fill="#101e29" /><g class="blink"><circle cx="23" cy="28" r="3.2" fill="#89d9bf" /><circle cx="39" cy="28" r="3.2" fill="#89d9bf" /></g><path d="M27 35 Q31 38 35 35" fill="none" stroke="#89d9bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><path d="M31 8 V1" fill="none" stroke="#edc481" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><circle cx="31" cy="0" r="3" fill="#edc481" class="twinkle"/><rect x="0" y="24" width="7" height="15" rx="3" fill="#ee927e" /><rect x="55" y="24" width="7" height="15" rx="3" fill="#ee927e" /><rect x="16" y="48" width="10" height="8" rx="3" fill="#edc481" /><rect x="38" y="48" width="10" height="8" rx="3" fill="#edc481" /></g></g></svg>
